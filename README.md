@@ -17,8 +17,9 @@ The returned dictionary should follow this format:
 }
 ```
 If a list containing less than 9 elements is passed into the function, it should raise a `ValueError` exception with the message: 
+
 >"List must contain nine numbers."
->
+
 The values in the returned dictionary should be lists and not Numpy arrays.
 
 For example, `calculate([0,1,2,3,4,5,6,7,8])` should return:
@@ -33,10 +34,10 @@ For example, `calculate([0,1,2,3,4,5,6,7,8])` should return:
   'sum': [[9, 12, 15], [3, 12, 21], 36]
 }
 ```
-### Development
--------------
-Write your code in `mean_var_std.py`. For development, you can use `main.py` to test your code.
++ #### Development
 
-### Testing
--------------
-The unit tests for this project are in `test_module.py`. We imported the tests from `test_module.py` to `main.py` for your convenience.
+  Write your code in `mean_var_std.py`. For development, you can use `main.py` to test your code.
+
++ #### Testing
+
+  The unit tests for this project are in `test_module.py`. We imported the tests from `test_module.py` to `main.py` for your convenience.
